@@ -10,7 +10,7 @@ stages {
 
    stage('Read README.md file') {
             steps {
-                sh 'cat README.me'
+                sh 'cat README.md'
             }
         } 
 
