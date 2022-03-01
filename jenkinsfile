@@ -4,7 +4,7 @@ pipeline {
 stages {
    stage('Read demo file') {
             steps {
-                sh 'cat demo.txt'
+                sh 'cat Marcon.txt'
             }
         }
 }
