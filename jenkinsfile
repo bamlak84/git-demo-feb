@@ -2,7 +2,7 @@ pipeline {
 agent { node { label 'master' } }
 parameters {
         string(name: 'FileName', defaultValue: '', description: 'Pls supply filename')
-        choice(name: 'FileList', choices: ['demo', 'ajay'], description: 'Pick File')
+        choice(name: 'FileList', choices: ['Marcon', 'ajay'], description: 'Pick File')
 }
   
 stages {
